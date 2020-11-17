@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#gameboard {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 20px;
+    flex-direction: column;
+    height: 600px;
+    width: 900px;
+    border: solid black 1px;
+}
+
+.gameboardLine {
+    display: flex;
+    height: 200px;
+    width: 100%;
+    background-color: khaki;
+}
+
+.gameboardCase {
+    height: 100%;
+    width: 300px;
+    border: solid black 1px;
+}
